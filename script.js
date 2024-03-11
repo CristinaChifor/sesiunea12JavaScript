@@ -30,3 +30,56 @@ if (!isChordone || !hasEaten) {
         console.log(`Inca nu ai terminat de mancat, te poti uita la desene cand farfuria e goala`);
     }
 }
+
+// if ...else  Permite să se execute un bloc de cod dacă o condiție este adevărată și alt bloc de cod dacă aceeași condiție este falsă.
+
+if (isChordone && hasEaten) {
+    console.log(`te poti uita la desene`);
+} else {
+    
+    if(!isChordone){
+        console.log(`Inca nu te poti uita la desene`);
+    }
+    if(!hasEaten){
+        console.log(`Inca nu ai terminat de mancat, te poti uita la desene cand farfuria e goala`);
+    }
+
+}
+
+// Operatorul ternar (sau operatorul condițional) este o formă compactă de a scrie o instrucțiune if-else într-o singură linie. Acesta este adesea folosit pentru a atribui o valoare variabilei în funcție de o anumită condiție
+// atribuie valori in functie de o conditie
+
+Sintaxa: condiție ? valoareDacaAdevărat : valoareDacaFals;
+
+
+// if...else ...if..else: Permite gestionarea mai multor condiții într-o succesiune. Se testează fiecare condiție în ordine și se execută primul bloc de cod asociat cu prima condiție adevărată sau blocul asociat cu else dacă nici o condiție nu e adevărată.
+
+//let nmber = 0;
+//if(number > 0) {
+    //console.log(`numarul ales este pozitiv`);
+//} else if{
+   // console.log(`numarul ales este negativ`);
+//} else {
+    //console.log(`numarul ales este 0`);
+//}
+
+// switch: Este utilizat atunci când trebuie să se compare o valoare cu mai multe posibilități.
+
+const dayOfTheWeek = 2;
+
+switch (dayOfTheWeek) {
+    case 1:
+    console.log(`ziua este Luni`);
+    break;
+    default:
+        console.log(`nu stiu ce zi a saptamanii este`);
+        break;
+    case 2:
+        console.log(`ziua este Marti`);
+    break;
+    default:
+        console.log(`nu stiu ce zi a saptamanii este`);
+        break;
+
+
+}
