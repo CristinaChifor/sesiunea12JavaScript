@@ -131,8 +131,7 @@ let smallestNr = Number.MAX_SAFE_INTEGER;
 for (let i = 0; i < numbers.length; i++) {
     if(numbers[i] < smallestNr) {
         smallestNr = numbers[i]
-    }
-      
+    }    
 }
 
 console.log(`cel mai mic numar din lista este`, smallestNr);
