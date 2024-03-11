@@ -101,7 +101,7 @@ let currentIndex = 0;
 
 while (currentIndex < numbers.length) {
     if (numbers[currentIndex] < smallestNumber) {
-        smallestNumber -numbers[currentIndex];
+        smallestNumber = numbers[currentIndex];
     }
 
     currentIndex++;
@@ -110,4 +110,34 @@ while (currentIndex < numbers.length) {
 console.log(`cel mai mic numar din lista este`, smallestNumber);
 
 // do ... while Este o structura de control repetitiva ce permite executarea unui bloc de cod atat timp cat o anumită condiție sau expresie este adevărată. Blocul de cod se executa cel puțin odata indiferent de valoarea condiției.
+
+lot n = 0;
+let num = 0
+do {
+    num++
+    console.log(num);   
+} while (num < n); 
+
+// for 
+
+let times = 10;
+
+for (let i = 0; i < 10; i++) {
+    console.log(`Hello ${i}!`);
+}
+
+let smallestNr = Number.MAX_SAFE_INTEGER;
+
+for (let i = 0; i < numbers.length; i++) {
+    if(numbers[i] < smallestNr) {
+        smallestNr = numbers[i]
+    }
+      
+}
+
+console.log(`cel mai mic numar din lista este`, smallestNr);
+
+
+
+
 
