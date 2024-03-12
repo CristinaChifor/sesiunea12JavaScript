@@ -19,7 +19,7 @@ let hasEaten = false;
 
 if (isChordone && hasEaten) {
     console.log(`te poti uita la desene`);
-}
+};
 
 if (!isChordone || !hasEaten) {
 
@@ -29,7 +29,7 @@ if (!isChordone || !hasEaten) {
     if(!hasEaten){
         console.log(`Inca nu ai terminat de mancat, te poti uita la desene cand farfuria e goala`);
     }
-}
+};
 
 // if ...else  Permite să se execute un bloc de cod dacă o condiție este adevărată și alt bloc de cod dacă aceeași condiție este falsă.
 
@@ -44,12 +44,12 @@ if (isChordone && hasEaten) {
         console.log(`Inca nu ai terminat de mancat, te poti uita la desene cand farfuria e goala`);
     }
 
-}
+};
 
 // Operatorul ternar (sau operatorul condițional) este o formă compactă de a scrie o instrucțiune if-else într-o singură linie. Acesta este adesea folosit pentru a atribui o valoare variabilei în funcție de o anumită condiție
 // atribuie valori in functie de o conditie
 
-Sintaxa: condiție ? valoareDacaAdevărat : valoareDacaFals;
+//Sintaxa: condiție ? valoareDacaAdevărat : valoareDacaFals;
 
 
 // if...else ...if..else: Permite gestionarea mai multor condiții într-o succesiune. Se testează fiecare condiție în ordine și se execută primul bloc de cod asociat cu prima condiție adevărată sau blocul asociat cu else dacă nici o condiție nu e adevărată.
@@ -80,7 +80,7 @@ switch (dayOfTheWeek) {
     default:
         console.log(`nu stiu ce zi a saptamanii este`);
         break;
-}
+};
 
 // Buclele sau instrucțiunile repetitive sunt structuri de control care permit executarea repetitivă a unui bloc de cod. Acestea sunt folosite pentru a automatiza sarcini repetitive sau pentru a parcurge iterativ valori din colecții de date (array, object, etc).
 //Principalele bucle folosite in JavaScript sunt:
